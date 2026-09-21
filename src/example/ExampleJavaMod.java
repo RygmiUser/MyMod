@@ -13,7 +13,7 @@ public class ExampleJavaMod extends Mod{
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
-            //show dialog upon startup
+            //show dialog on startup
             Time.runTask(10f, () -> {
                 BaseDialog dialog = new BaseDialog("frog");
                 dialog.cont.add("behold").row();
